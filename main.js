@@ -3,7 +3,7 @@
 let firstNum;
 do {
    firstNum = +prompt('Введіть число N:', '')
-} while (!Number.isInteger(firstNum) || firstNum == NaN)
+} while (!Number.isInteger(firstNum))
 console.log('Первое число: ', firstNum)
 
 //second number
