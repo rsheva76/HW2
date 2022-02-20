@@ -10,7 +10,7 @@ console.log('Первое число: ', firstNum)
 let secondNum;
 do {
    secondNum = +prompt('Введіть число M:', '')
-} while (!Number.isInteger(secondNum) || secondNum == NaN)
+} while (!Number.isInteger(secondNum))
 console.log('Второе число: ', secondNum)
 
 //boolean
